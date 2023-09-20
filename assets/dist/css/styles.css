@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.active{
+    /* background-color: aliceblue; */
+    border: 2px solid #00a2ff;
+    box-shadow: 0 0 4px 0 #00a2ff !important;
+}
